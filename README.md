@@ -1,4 +1,4 @@
-# TriageMaster ⚡
+# TriageMaster 
 
 > **Automated Reconnaissance Pipeline for Pentesting & Bug Bounty.**
 
@@ -11,7 +11,7 @@
 Instead of running tools individually and manually parsing output, TriageMaster produces a structured reconnaissance workspace containing validated assets, visual evidence, exposed services, and triaged findings within minutes.
 ---
 
-## 🚀 The Workflow (The Hunter's Funnel)
+## The Workflow (The Hunter's Funnel)
 
 TriageMaster follows a strict "Funnel Methodology" to ensure no critical asset is missed:
 
@@ -93,7 +93,7 @@ The tool creates a workspace in `recon/target.com_DATE/`:
 
 ---
 
-## 🧠 Logic & Philosophy
+## Logic & Philosophy
 
 This tool was built to solve the **"False Negative"** problem.
 Most triage scripts only check ports 80/443. **TriageMaster** checks critical infrastructure ports (like 8080, 8443, 3000, 3306) and validates them using `ScopeSentry`.
