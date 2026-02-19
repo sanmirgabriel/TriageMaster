@@ -50,6 +50,9 @@ go install -v github.com/sanmirgabriel/scopesentry@latest
 
 
 # Python Tools
+# Recommended in a virtual enviroment
+python -m venv venv
+source venv/bin/activate
 pip3 install uro
 
 # System Tools
