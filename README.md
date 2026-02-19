@@ -46,6 +46,7 @@ go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 go install -v github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/sensepost/gowitness@latest
+go install -v github.com/sanmirgabriel/scopesentry@latest
 
 
 # Python Tools
